@@ -118,6 +118,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
 }
 .container-section-one {
     display: flex;
@@ -171,6 +172,8 @@ body {
 .ul-two-section {
     display: flex;
     list-style-type: none;
+    gap: 24px;
+    padding: 0;
 }
 .li-section-formula {
     margin-right: 24px;
@@ -209,8 +212,9 @@ body {
 }
 .ul-section-three {
     display: flex;
-    margin-right: 24px;
     list-style-type: none;
+    gap: 24px;
+    padding: 0;
 }
 .li-section-three-formula {
     width: calc((100% - 72px) / 4);
@@ -263,6 +267,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
+    padding: 0;
 }
 .li-four:nth-child(4),
 .li-four:nth-child(5),
