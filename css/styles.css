@@ -114,9 +114,6 @@ body {
     margin-right: 40px;
     
 }
-.li-style-after {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .li-adress-tel-style {
     display: flex;
     margin-right: 0;
@@ -126,6 +123,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .info-style:hover,
