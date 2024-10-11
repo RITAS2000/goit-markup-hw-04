@@ -354,7 +354,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-.li:hover .container-over p {
+.li-fore:hover .form-img {
     transform: translateY(0%);
 }
 .form-img {
