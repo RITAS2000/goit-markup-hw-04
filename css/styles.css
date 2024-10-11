@@ -333,6 +333,7 @@ body {
     list-style-type: none;
     padding: 0;
 }
+
 .li-four:nth-child(4),
 .li-four:nth-child(5),
 .li-four:nth-child(6) {
@@ -340,6 +341,17 @@ body {
 }
 .li-four:nth-child(3) {
     margin-right: 0;
+}
+.li-four {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.li-four:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.li-four>p:hover {
+   transform: translateY(0%);
 }
 .formula-four {
     width: calc((100% - 48px) / 3);
