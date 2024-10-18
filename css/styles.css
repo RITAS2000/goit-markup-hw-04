@@ -63,7 +63,7 @@ body {
 }
 
 .header-style {
-    
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -71,6 +71,7 @@ body {
     color: #2e2f42;
     position: relative;
     margin: 0;
+    padding-top: 24px;
     padding-bottom: 24px;
     text-decoration: none;
    
@@ -97,10 +98,13 @@ body {
 }
 .address-style {
     font-style: normal;
+    display: flex;
+    align-items: center;
 }
 .adress-position {
   display: flex;
   justify-content: space-between;
+  
 }
 .ul-adress-style {
     display: flex;
