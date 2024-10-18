@@ -144,6 +144,7 @@ body {
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+    max-width: 1440px;
     width: 100%;
 }
 .container-section-one {
